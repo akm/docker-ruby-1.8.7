@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y software-properties-common && \
     apt-add-repository ppa:brightbox/ruby-ng && \
     apt-get update && \
-    apt-get install -y ruby1.8 rubygems1.8 ruby-switch
+    apt-get install -y ruby1.8 ruby1.8-dev rubygems1.8 ruby-switch
 RUN ruby-switch --set ruby1.8
 RUN echo 'gem: --no-rdoc --no-ri' >> "$HOME/.gemrc"
 
