@@ -3,5 +3,5 @@
 ## build
 
 ```bash
-$ docker build -t ruby:1.8.7 .
+$ docker build -t ruby-1.8.7 .
 ```
